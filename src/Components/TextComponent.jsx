@@ -1,11 +1,13 @@
-import "../Css/MyFirstComponentStyle.css";
+import "../css/MyFirstComponentStyle.css";
 
-const TextComponent = () => {
+const TextComponent = ({ postName, postBody, children }) => {
   return (
-    <div>
-      <h1 className="paragraph">This is the post title</h1>
+    <div className="cont">
+      <h1 className="paragraph">{postName}</h1>
       <hr />
-      <p className="secondp">This is the post body</p>
+      <h2 className="secondp">{postBody}</h2>
+
+      <div className="parag">{children}</div>
     </div>
   );
 };

@@ -1,9 +1,19 @@
-import "../Css/MyFirstComponentStyle.css";
+import "../css/MyFirstComponentStyle.css";
 
-const ButtonComponent = () => {
+const ButtonComponent = ({ title, children }) => {
+  // if (title === null || title === "") {
+  //   return null;
+  // }
   return (
     <div>
-      <button className="button">Tag Button</button>
+      {title === null || title === "" ? (
+        <div></div>
+      ) : (
+        <button className="button">
+          {title}
+          {children}
+        </button>
+      )}
     </div>
   );
 };
