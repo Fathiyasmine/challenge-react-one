@@ -1,4 +1,4 @@
-import "../Css/MyFirstComponentStyle.css";
+import "../css/MyFirstComponentStyle.css";
 
 const MyFirstComponent = () => {
   return (

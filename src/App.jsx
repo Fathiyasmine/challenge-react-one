@@ -1,7 +1,7 @@
-import "./Css/App.css";
-import ButtonComponent from "./Components/ButtonComponent.jsx";
-import MyFirstComponent from "./Components/MyFirstComponent.jsx";
-import TextComponent from "./Components/TextComponent.jsx";
+import "./css/App.css";
+import ButtonComponent from "./components/ButtonComponent.jsx";
+import MyFirstComponent from "./components/MyFirstComponent.jsx";
+import TextComponent from "./components/TextComponent.jsx";
 
 function App() {
   return (
