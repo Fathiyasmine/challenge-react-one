@@ -1,15 +1,9 @@
-<<<<<<< HEAD
 import "./css/App.css";
 import ButtonComponent from "./components/ButtonComponent.jsx";
 import MyFirstComponent from "./components/MyFirstComponent.jsx";
 import TextComponent from "./components/TextComponent.jsx";
-=======
 import "./css/MyFirstComponentStyle.css";
-import ButtonComponent from "./components/ButtonComponent.jsx";
-import MyFirstComponent from "./components/MyFirstComponent.jsx";
-import TextComponent from "./components/TextComponent.jsx";
 const showCategories = true;
->>>>>>> 8331773e08d58f69b40360ac67f4b1f638ced714
 
 function App() {
   const posts = [
